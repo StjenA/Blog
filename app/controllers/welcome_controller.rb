@@ -1,12 +1,8 @@
 class WelcomeController < ApplicationController
-  
-  def index
-    @username = params[:username]
-    @password = params[:password]
-  end
+  before_filter :authenticate_user!
   
   def show
-    
+
   end
   
   def destroy
