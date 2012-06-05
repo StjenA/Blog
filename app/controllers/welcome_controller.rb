@@ -8,5 +8,6 @@ class WelcomeController < ApplicationController
   def destroy
     
   end
-  
-end
+
+
+  end

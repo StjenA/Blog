@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/app/controllers/application_controller.rb</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/config/application.rb</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/db/schema.rb</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/db/seeds.rb</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/script/rails</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/app/views/welcome/index.html.erb</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/app/views/home/index.html.erb</file>
+        <file>file:/C:/Users/Stephan/Documents/NetBeansProjects/rails-course-catch-up/app/views/layouts/application.html.erb</file>
+    </open-files>
 </project-private>

@@ -1,0 +1,22 @@
+<h1>Listing feedback_messages</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @feedback_messages.each do |feedback_message| %>
+  <tr>
+    <td><%= feedback_message.subject %></td>
+    <td><%= link_to 'Show', feedback_message %></td>
+    <td><%= link_to 'Edit', edit_feedback_message_path(feedback_message) %></td>
+    <td><%= link_to 'Destroy', feedback_message, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Feedback message', new_feedback_message_path %>
