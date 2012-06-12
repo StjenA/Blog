@@ -44,6 +44,8 @@ class FeedbackMessagesController < ApplicationController
 
     respond_to do |format|
       if @feedback_message.save
+        #TODO email versturen
+        AdminMailer.helpdesk_notification(@feedback_message).deliver
         format.html { redirect_to @feedback_message, notice: 'Feedback message was successfully created.' }
         format.json { render json: @feedback_message, status: :created, location: @feedback_message }
       else
